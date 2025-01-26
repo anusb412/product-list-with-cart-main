@@ -13,6 +13,7 @@ import { useState } from 'react'
 function App() {
 
   const [buttonText, setButtonText] = useState('');
+  const [quantity, setQuantity] = useState(0);
 
   const handleClick = () => {
     const button = document.querySelector('button');
