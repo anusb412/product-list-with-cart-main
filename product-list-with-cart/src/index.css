@@ -1,0 +1,76 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  background-color: hsl(13, 31%, 94%);
+}
+
+body {
+  display: flex;
+  place-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: .75rem;
+}
+
+.item {
+
+}
+
+.product {
+  width: 340px;
+  border-radius: 10%;
+}
+
+button {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: .5rem 1.5rem;
+  font-weight: 600;
+  width: 150px;
+  position: relative;
+  top: -35px;
+  left: 100px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.price {
+  color: hsl(14, 86%, 42%);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.cart {
+  background-image: url(./assets/images/illustration-empty-cart.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 1rem;
+  background-color: hsl(20, 50%, 98%);
+  border-radius: 10px;
+  display: grid;
+  gap: 4rem;
+}
+
+h3 {
+  color: hsl(14, 86%, 42%);
+}
+
+.cart-text {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: hsl(12, 20%, 44%);
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: 800;
+}
