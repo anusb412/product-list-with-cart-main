@@ -24,7 +24,8 @@ function App() {
 
   return (
     <>
-      <h1>Desserts</h1>
+      <div className="container">
+        <h1>Desserts</h1>
       <div className="waffle item">
         <img src={waffle} alt="" className='product'/>
         <button onClick={handleClick}>{buttonText} <img src={addCartBtn} alt="" />Add to Cart</button>
@@ -101,6 +102,7 @@ function App() {
         <h3>Your Cart(0)</h3>
         <img src="" alt="" />
         <p className='cart-text'>Your added items will appear here</p>
+      </div>
       </div>
 
     </>

@@ -12,6 +12,13 @@ body {
   padding: .75rem;
 }
 
+.container {
+  width: 400px;
+  background-color: tan;
+  padding: 0 4rem;
+
+}
+
 
 .product {
   width: 340px;
